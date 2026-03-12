@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Interactive Photo Gallery</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+</head>
+
+<body>
+
+<h1>Interactive Photo Gallery</h1>
+
+<div id="image">
+Hover over an image below to display here.
+</div>
+
+<div class="gallery">
+
+<img src="https://picsum.photos/200/150?1"
+alt="Beautiful Mountain"
+onmouseover="update(this)"
+onmouseout="undo()">
+
+<img src="https://picsum.photos/200/150?2"
+alt="Ocean View"
+onmouseover="update(this)"
+onmouseout="undo()">
+
+<img src="https://picsum.photos/200/150?3"
+alt="Green Forest"
+onmouseover="update(this)"
+onmouseout="undo()">
+
+<img src="https://picsum.photos/200/150?4"
+alt="Sunset Landscape"
+onmouseover="update(this)"
+onmouseout="undo()">
+
+<img src="https://picsum.photos/200/150?5"
+alt="City Lights"
+onmouseover="update(this)"
+onmouseout="undo()">
+
+</div>
+
+</body>
+</html>
