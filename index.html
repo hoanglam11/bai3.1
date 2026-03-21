@@ -1,48 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Interactive Photo Gallery</title>
-<link rel="stylesheet" href="style.css">
-<script src="script.js"></script>
+    <meta charset="UTF-8">
+    <title>Interactive Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<h1>Interactive Photo Gallery</h1>
+<h1>My Photo Gallery</h1>
 
 <div id="image">
-Hover over an image below to display here.
+    Hover over an image below to display here.
 </div>
 
-<div class="gallery">
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJQAAACUCAMAAABC4vDmAAAAA1BMVEXmGR5rGgWzAAAALElEQVR4nO3BMQEAAADCoPVPbQwfoAAAAAAAAAAAAAAAAAAAAAAAAAAAAHgZViQAAd2fpbUAAAAASUVORK5CYII="
+     alt="Red Color"
+     onmouseover="upDate(this)"
+     onmouseout="undo()">
 
-<img src="https://picsum.photos/200/150?1"
-alt="Beautiful Mountain"
-onmouseover="update(this)"
-onmouseout="undo()">
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJQAAACUCAMAAABC4vDmAAAAA1BMVEUD/wFBH05nAAAALElEQVR4nO3BMQEAAADCoPVPbQwfoAAAAAAAAAAAAAAAAAAAAAAAAAAAAHgZViQAAd2fpbUAAAAASUVORK5CYII="
+     alt="Green Color"
+     onmouseover="upDate(this)"
+     onmouseout="undo()">
 
-<img src="https://picsum.photos/200/150?2"
-alt="Ocean View"
-onmouseover="update(this)"
-onmouseout="undo()">
+<img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAJQAlAMBIgACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAAAAQIDB//EABgQAQEBAQEAAAAAAAAAAAAAAAARARIC/8QAGAEBAQEBAQAAAAAAAAAAAAAAAAEDAgX/xAAXEQEBAQEAAAAAAAAAAAAAAAAAERIB/9oADAMBAAIRAxEAPwDxXQHusgAAAAEBQAABQAQRQAAABQFRQAAAAAQAEgAEABYACAAsAUWAAoAAgokEFAQUBBRRBQBFCAAsAAAUWCAIAAAAAAABAAUBQggoqIAsFRRYIoEAESCoBAAIBgAAACiiChBBVWCCjqJUFCFQWCZKgoRUFRIAKsEFCCCiwRSCxKCiwWJHSJFc1iEb5ILWBqECsjUIFZGuUid4VBYQi1CNcrBKxF5ai5glYixqLnlSsQbgFdOcOW4RIyrnycukNxSuW+E3y6wFrlycusIGnPlOXWHIact8meXWEQ05w5dIQNMQ5biwSsQjcXMCsxHSAlbmHONwis6xzib5dNxILXLk5deSBpz5I6RIGmIRuECsQjpCBXOEdIQK5wjpCBWIRuEErMVqBCtgK4TQATQBQBBIoALgAAKgABFzAAigD//Z"
+     alt="Blue Color"
+     onmouseover="upDate(this)"
+     onmouseout="undo()">
 
-<img src="https://picsum.photos/200/150?3"
-alt="Green Forest"
-onmouseover="update(this)"
-onmouseout="undo()">
-
-<img src="https://picsum.photos/200/150?4"
-alt="Sunset Landscape"
-onmouseover="update(this)"
-onmouseout="undo()">
-
-<img src="https://picsum.photos/200/150?5"
-alt="City Lights"
-onmouseover="update(this)"
-onmouseout="undo()">
-
-</div>
-
+<script src="script.js"></script>
 </body>
 </html>
